@@ -65,16 +65,15 @@ header{
     font-size: 40px;
     float: right;
     padding: 8px 10px 0px 0px;
+    color: rgb(253, 99, 99);
+    border: none;
+    background-color: none
+;
+}
 
-}
-#menu :hover{
-    color: grey;
-    -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-}
 #cartMenu{
     font-size: 40px;
     float: right;
     padding: 8px 20px 0px 0px;
-
+    color: rgb(253, 99, 99);
 }
