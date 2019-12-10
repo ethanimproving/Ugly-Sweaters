@@ -19,6 +19,7 @@
 header {
 	display: block;
 	margin: 0px;
+	border-radius: 15px 15px 0 0;
 }
 
 img {
@@ -27,23 +28,8 @@ img {
 
 button {
 	overflow: visible;
-}
-
-button {
 	text-transform: none;
-}
-
-button {
-	-webkit-appearance: button;
-}
-
-button::-moz-focus-inner {
-	border-style: none;
-	padding: 0;
-}
-
-button:-moz-focusring {
-	outline: 1px dotted ButtonText;
+	border-radius: 0 0 10px 10px;
 }
 
 h2 {
