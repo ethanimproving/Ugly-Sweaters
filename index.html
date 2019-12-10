@@ -6,86 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ugly Sweaters</title>
     <link rel="stylesheet" href="/stylesheet.css">
+    <script src="https://use.fontawesome.com/2bc7521bb3.js"></script>
 </head>
 
-    
-
-    <!-- PRODUCT CARDS LIST -->
-
-    <div>
-        <div class="row">
-
-            <!-- INDIVIDUAL CARDS -->
-            <div class="col-4">
-                <div class="card text-center">
-                <div class="card-body">
-                        <div>
-                        <img style="max-height: 200px; max-width: 150px;" class="card-img-top" src="http://johnlawrimore.com/smu/{{product.imageName}}" alt="{{product.name}}" />
-                            <span class="badge badge-pill badge-success" style="position: absolute, top: 140px;">
-                                {{product.price}}
-                            </span>
-                        </div>
-                        <h5 style="min-height: 48px">
-                            {{product.name}}
-                        </h5>
-                        <a href="products/product/{{product.id}}" class="btn btn-block btn-info">
-                            Product Details
-                        </a>
-                        <a href="/cart"
-                            class="btn btn-block btn-warning">
-                            Add to Cart
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-4">
-                    <div class="card text-center">
-                    <div class="card-body">
-                            <div>
-                            <img style="max-height: 200px; max-width: 150px;" class="card-img-top" src="http://johnlawrimore.com/smu/{{product.imageName}}" alt="{{product.name}}" />
-                                <span class="badge badge-pill badge-success" style="position: absolute, top: 140px;">
-                                    {{product.price}}
-                                </span>
-                            </div>
-                            <h5 style="min-height: 48px">
-                                {{product.name}}
-                            </h5>
-                            <a href="products/product/{{product.id}}" class="btn btn-block btn-info">
-                                Product Details
-                            </a>
-                            <a href="/cart"
-                                class="btn btn-block btn-warning">
-                                Add to Cart
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-4">
-                        <div class="card text-center">
-                        <div class="card-body">
-                                <div>
-                                <img style="max-height: 200px; max-width: 150px;" class="card-img-top" src="http://johnlawrimore.com/smu/{{product.imageName}}" alt="{{product.name}}" />
-                                    <span class="badge badge-pill badge-success" style="position: absolute, top: 140px;">
-                                        {{product.price}}
-                                    </span>
-                                </div>
-                                <h5 style="min-height: 48px">
-                                    {{product.name}}
-                                </h5>
-                                <a href="products/product/{{product.id}}" class="btn btn-block btn-info">
-                                    Product Details
-                                </a>
-                                <a href="/cart"
-                                    class="btn btn-block btn-warning">
-                                    Add to Cart
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-
+    <div class="wrapper">
+        <div class="topbar">
+            <div class="fa fa-search"></div>
+            <input type="text" placeholder="Search Products">
+            <div class="fa fa-filter"></div>
         </div>
     </div>
     
