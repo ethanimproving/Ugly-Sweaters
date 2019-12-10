@@ -13,71 +13,23 @@
 		background-color: #205ba2;
 		color: #c2c2c2;
 	}
-	::-moz-selection {
-		background-color: #205ba2;
-		color: #c2c2c2;
-	}
-	::-webkit-scrollbar {
-		background-color: #323334;
-		color: #9d9b96;
-	}
-	::-webkit-scrollbar-thumb {
-		background-color: #3b3c3d;
-	}
-	::-webkit-scrollbar-thumb:hover {
-		background-color: #404243;
-	}
-	::-webkit-scrollbar-thumb:active {
-		background-color: #47494b;
-	}
-	::-webkit-scrollbar-corner {
-		background-color: #2f3031;
-	}
-	* {
-		scrollbar-color: #3b3c3d #323334;
-	}
 }
 
 
 header {
 	display: block;
 	margin: 0px;
+	border-radius: 15px 15px 0 0;
 }
 
 img {
 	border-style: none;
 }
 
-hr {
-	box-sizing: content-box;
-	height: 0;
-	overflow: visible;
-}
-
-button {
-	font: inherit;
-	margin: 0;
-}
-
 button {
 	overflow: visible;
-}
-
-button {
 	text-transform: none;
-}
-
-button {
-	-webkit-appearance: button;
-}
-
-button::-moz-focus-inner {
-	border-style: none;
-	padding: 0;
-}
-
-button:-moz-focusring {
-	outline: 1px dotted ButtonText;
+	border-radius: 0 0 10px 10px;
 }
 
 h2 {
@@ -159,6 +111,7 @@ img {
 
 .w3-card-4 {
 	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 0 auto;
 }
 
 .w3-margin-right {
@@ -219,4 +172,8 @@ img {
 
 img {
 	margin-bottom: 15px;
+}
+
+.w3-container {
+	justify-content: center;
 }
