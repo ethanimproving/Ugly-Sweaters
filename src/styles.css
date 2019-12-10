@@ -1,1 +1,46 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    outline: 1px solid red;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.topbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.topbar input {
+    width: 75%;
+}
+#tree{
+    width: 50px;
+    height: 45px;
+    float: left;
+}
+h1{
+    margin:0px;
+    padding-bottom: 20px;
+    float: left;
+}
+header{
+    margin: 5px;
+    color: rgb(253, 99, 99);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#menu{
+    font-size: 40px;
+    float: right;
+    padding: 8px 5px 0px 0px;
+}
