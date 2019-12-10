@@ -1,5 +1,6 @@
 hr {
 	border: 0;
-	border-top: 1px solid #eee;
-	margin: 20px 0 0;
+	border-top: 2px solid rgb(218, 216, 216);
+  margin: 20px auto 0;
+  width: 90%;
 }
