@@ -24,3 +24,9 @@ html, body {
 .topbar input {
   width: 75%;
 }
+#tree{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    margin-top: 10px;
+}
