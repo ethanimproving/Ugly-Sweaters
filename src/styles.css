@@ -42,5 +42,11 @@ header{
 #menu{
     font-size: 40px;
     float: right;
-    padding: 8px 5px 0px 0px;
+    padding: 8px 10px 0px 0px;
+}
+#cartMenu{
+    font-size: 40px;
+    float: right;
+    padding: 8px 20px 0px 0px;
+
 }
