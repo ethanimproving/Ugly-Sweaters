@@ -184,5 +184,10 @@ img {
 @media all and (min-width: 576px) {
 	.ethan-container{
 		max-width: 350px;
+		flex: 50%;
+	}
+
+	.row {
+		display: flex;
 	}
 }
