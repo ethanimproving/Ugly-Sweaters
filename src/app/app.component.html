@@ -1,3 +1,29 @@
+<header>
+  <img id="tree" src="http://iconbug.com/data/48/512/7fed9b599abe281b110416691e400220.png"
+      alt="" />
+  <h3 id="mainH3" class="header">Ugly Sweaters© </h3>
+  <button id="menu" (click)="toggle()" class="fa fa-bars"></button>
+  <ng-container *ngIf="show" >
+      <div class="hamMenu">
+          <a class="fa fa-tree" href="">  About Us</a>
+          <a class="fa fa-phone" href="">  Contact Us</a>
+          <a class="fa fa-suitcase" href="">  Careers</a>
+          <a class="fa fa-info-circle" href="">  Help</a>
+          <a class="fa fa-cogs" href="">  Settings</a>
+       </div>
+  </ng-container>
+  <button (click)="cartToggle()" id="cartMenu" class="fa fa-shopping-cart"></button>
+  <ng-container *ngIf="cartShow" >
+      <div class="">
+          <a class="fa fa-shopping-cart" href="">  About Us</a>
+          <a class="fa fa-phone" href="">  Contact Us</a>
+          <a class="fa fa-suitcase" href="">  Careers</a>
+          <a class="fa fa-info-circle" href="">  Help</a>
+          <a class="fa fa-cogs" href="">  Settings</a>
+       </div>
+  </ng-container>
+</header>
+
 <div class="wrapper">
     <div class="topbar">
 

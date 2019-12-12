@@ -4,3 +4,27 @@ hr {
   margin: 20px auto 0;
   width: 90%;
 }
+
+
+.hamMenu {
+  height:65%;
+  position:fixed;
+  display:flex;
+  right: 0;
+  margin-right: 40px;
+  flex-direction:column;
+  min-width:100px;
+  box-shadow: 5px 0 15px rgba(black, .05);
+  /* transform:translateX() translateY(0); */
+  transition: .55s linear;
+}
+
+.hamMenu a {
+  background:rgba(2, 2, 2, 0.788);
+  display:block;
+  color: yellow;
+  padding:20px 15px;
+  text-decoration:none;
+}
+
+
