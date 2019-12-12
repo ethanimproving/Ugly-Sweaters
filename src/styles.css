@@ -7,6 +7,8 @@ html, body {
     width: 100%;
 }
 
+
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -51,10 +53,10 @@ html, body {
     height: 45px;
     float: left;
 }
-h3{
+#mainH3{
     margin:10px ;
-    padding-bottom: 20px;
     float: left;
+    
 }
 header{
     margin: 5px;
@@ -68,13 +70,16 @@ header{
     color: rgb(253, 99, 99);
     border: none;
     background-color: white;
+    
 }
 
 #cartMenu{
     font-size: 25px;
     float: right;
-    padding: 8px 20px 0px 0px;
+    margin-right: 20px;
+    padding: 8px 0px 0px 0px;
     color: rgb(253, 99, 99);
     background-color: white;
     border: none;
+    
 }
